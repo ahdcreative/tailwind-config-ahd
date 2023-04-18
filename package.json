@@ -1,8 +1,11 @@
 {
   "name": "@ahdcreative/ahd-tailwind-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "tailwind config for ahdcreative website",
   "main": "ahd-tailwind-config.js",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/ahdcreative/tailwind-config.git"},
   "scripts": {
     "semantic-release": "semantic-release"
   },
