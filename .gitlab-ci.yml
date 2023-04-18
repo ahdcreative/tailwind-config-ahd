@@ -4,7 +4,7 @@ default:
     - npm ci --cache .npm --prefer-offline
     - |
       {
-        echo "@${CI_PROJECT_ROOT_NAMESPACE}:registry=https://registry.npmjs.org/"
+        echo "@${CI_PROJECT_ROOT_NAMESPACE}:registry=https://registry.npmjs.org/:_authToken=\${CI_JOB_TOKEN}"
         echo "${CI_API_V4_URL#https?}/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=\${CI_JOB_TOKEN}"
       } | tee -a .npmrc
   cache:
