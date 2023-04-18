@@ -1,3 +1,6 @@
+stages:
+  - release
+
 release_gitlab:
   stage: release
   image: node:latest
@@ -31,9 +34,6 @@ release_npm:
 workflow:
     rules:
       - if: $CI_COMMIT_BRANCH
-
-stages:
-  - release
 
 publish:
   stage: release
