@@ -23,6 +23,5 @@
   },
   "files": [
     "ahd-tailwind-config.js", ".npmignore", "LICENSE"
-  ],
-  "access": "public"
+  ]
 }
