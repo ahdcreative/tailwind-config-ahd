@@ -5,7 +5,8 @@
   "main": "ahd-tailwind-config.js",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/ahdcreative/tailwind-config.git"},
+    "url": "https://gitlab.com/ahdcreative/tailwind-config.git"
+  },
   "scripts": {
     "semantic-release": "semantic-release"
   },
