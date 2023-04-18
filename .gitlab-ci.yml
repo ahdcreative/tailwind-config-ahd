@@ -1,5 +1,4 @@
-release_npm:
-  stage: release
+default:
   image: node:latest
   before_script:
     - npm ci --cache .npm --prefer-offline
@@ -16,6 +15,10 @@ release_npm:
 workflow:
     rules:
       - if: $CI_COMMIT_BRANCH
+
+stages: 
+  - release
+
 
 publish:
   stage: release
