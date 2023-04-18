@@ -1,6 +1,6 @@
 {
-  "name": "ahd-tailwind-config",
-  "version": "1.0.0",
+  "name": "@ahdcreative/ahd-tailwind-config",
+  "version": "1.0.1",
   "description": "tailwind config for ahdcreative website",
   "main": "ahd-tailwind-config.js",
   "scripts": {
@@ -19,5 +19,6 @@
   },
   "files": [
     "ahd-tailwind-config.js", ".npmignore", "LICENSE"
-  ]
+  ],
+  "access": "public"
 }
