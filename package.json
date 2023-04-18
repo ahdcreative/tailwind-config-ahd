@@ -4,7 +4,7 @@
   "description": "tailwind config for ahdcreative website",
   "main": "ahd-tailwind-config.js",
   "scripts": {
-    "rel": "semantic-release"
+    "semantic-release": "semantic-release"
   },
   "author": "",
   "license": "MIT",
