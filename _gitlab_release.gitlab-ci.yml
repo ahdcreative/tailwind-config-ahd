@@ -1,4 +1,4 @@
-Gitlab Release:
+default:
   image: node:latest
   before_script:
     - npm ci --cache .npm --prefer-offline
