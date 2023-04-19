@@ -1,7 +1,7 @@
 {
   "name": "@ahdcreative/tailwind-config-ahd",
   "version": "0.0.0-dev",
-  "description": "tailwind config for ahdcreative website",
+  "description": "Tailwind config for AHDCreative Web Solutions website",
   "main": "ahd-tailwind-config.js",
   "repository": {
     "type": "git",
