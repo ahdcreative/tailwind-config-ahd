@@ -11,5 +11,6 @@
             "assets": "release/*.tgz"
         }],
         "@semantic-release/git"
-    ]
+    ],
+    "preset": "eslint"
   }
