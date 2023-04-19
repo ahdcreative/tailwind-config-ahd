@@ -11,7 +11,7 @@ module.exports = {
                 }),
                 // screens
                 screens: {
-                    'xs': '475px'
+                    'xs': '476px'
                 },
                 // Add color classes to active state
                 backgroundColor: ['active'],
