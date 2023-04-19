@@ -5,7 +5,7 @@
   "main": "ahd-tailwind-config.js",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/ahdcreative/tailwind-config.git"
+    "url": "https://github.com/ahdcreative/tailwind-config.git"
   },
   "scripts": {
     "semantic-release": "semantic-release"
@@ -13,15 +13,26 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
     "@semantic-release/gitlab": "^12.0.1",
     "@semantic-release/npm": "^10.0.3",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "semantic-release": "^21.0.1"
   },
   "publishConfig": {
     "access": "public"
   },
   "files": [
-    "ahd-tailwind-config.js", ".npmignore", "LICENSE"
-  ]
+    "ahd-tailwind-config.js",
+    ".npmignore",
+    "LICENSE"
+  ],
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
 }
